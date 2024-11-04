@@ -1,0 +1,79 @@
+#chart01 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 42%;
+  background-color: rgb(124, 159, 255);
+  border: 0px solid #f1f1f1;
+  border-radius: 4px;
+}
+
+.chart01table {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 8px;
+  width: 90%;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.chart01columnsout {
+  display: flex;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  background-color: rgb(124, 159, 255);
+  z-index: 10;
+}
+
+.chart01columns {
+  width: 20%;
+  border-bottom: 1px solid #f1f1f1;
+  color: rgb(255, 255, 255);
+}
+
+.chart01dataout {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-top: 6px;
+  width: 100%;
+  height: 220px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  overflow: hidden;
+}
+
+.chart01datain {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.chart01datain div {
+  width: 100%;
+}
+
+.chart01data {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid #f1f1f1;
+  color: rgb(255, 255, 255);
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.chart01data div {
+  width: 20%;
+}
+
+
+

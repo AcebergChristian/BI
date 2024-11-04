@@ -1,0 +1,8 @@
+#chart02 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  background-color: rgba(26, 117, 255, 0.4);
+  border-radius: 8px;
+}

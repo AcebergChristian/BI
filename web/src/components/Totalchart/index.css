@@ -1,0 +1,48 @@
+#totalchart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  width: 100%;
+  height: 38%;
+  background: url() no-repeat center center, linear-gradient(50deg,rgb(67, 97, 187)  10% , rgb(106, 137, 228)  40% ,rgb(168, 101, 189) 80%);
+  border-radius: 8px;
+}
+
+.totalchart_totalnum {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  width: 100%;
+  height: 38%;
+  color: #ffffff;
+}
+
+.totalchart_totalnum_title, .totalchart_totalnum_value {
+  width: 100%;
+}
+
+.totalchart_totalnum_value {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.totalchart_chart1, .totalchart_chart2, .totalchart_chart3, .totalchart_chart4, .totalchart_chart5, .totalchart_chart6, .totalchart_chart7, .totalchart_chart8 {
+  width: 22%;
+}
+
+.totalchart_chart_title {
+  font-size: 14px;
+  color: #e0e8f1;
+}
+
+.totalchart_chart1_num, .totalchart_chart2_num, .totalchart_chart3_num, .totalchart_chart4_num, .totalchart_chart5_num, .totalchart_chart6_num, .totalchart_chart7_num, .totalchart_chart8_num {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.chart01table {
+  display: flex;
+  
+}
